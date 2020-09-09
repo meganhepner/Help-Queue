@@ -6,7 +6,9 @@ class TicketControl extends React.Component {
   
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      formVisibleOnPage: false
+    };
   }
 
   render(){
@@ -16,3 +18,5 @@ class TicketControl extends React.Component {
     );
   }
 }
+
+export default TicketControl;
