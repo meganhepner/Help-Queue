@@ -2,7 +2,7 @@ import React from 'react';
 import { v4 } from 'uuid';
 import PropTypes from 'prop-types';
 
-function newTicketForm(props){
+function NewTicketForm(props){
 
   function handleNewTicketFormSubmission(event) {
     event.preventDefault();
@@ -37,4 +37,4 @@ NewTicketForm.propTypes = {
   onNewTicketCreation: PropTypes.func
 };
 
-export default newTicketFOrm;
+export default NewTicketForm;
